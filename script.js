@@ -34,7 +34,7 @@ $(document).ready(function () {
       $(this).removeClass("present");
       $(this).addClass("future");
     }});
-
+// this is how we get the page to change colors based on past, present, and future
 $("#hour-9 .description").val(localStorage.getItem("hour-9"));
 $("#hour-10 .description").val(localStorage.getItem("hour-10"));
 $("#hour-11 .description").val(localStorage.getItem("hour-11"));
